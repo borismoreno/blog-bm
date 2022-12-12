@@ -1,0 +1,31 @@
+.nombre {
+    color: var(--primary);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.contenido {
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    /* background-color: blue; */
+}
+
+.texto {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .contenido {
+        margin-left: 8rem;
+
+    }
+
+    .nombre {
+        margin-bottom: 4rem;
+    }
+}

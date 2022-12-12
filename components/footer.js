@@ -15,8 +15,8 @@ export default function Footer() {
                     <Link href='/blog'>
                         Blog
                     </Link>
-                    <Link href='/tienda'>
-                        Tienda
+                    <Link href='/contacto'>
+                        Contacto
                     </Link>
                 </nav>
                 <p className={styles.copyright}>Todos los derechos reservados {new Date().getFullYear()}</p>

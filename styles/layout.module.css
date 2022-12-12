@@ -1,0 +1,9 @@
+.contenido {
+    min-height: 0;
+}
+
+@media (min-width:768px) {
+    .contenido {
+        min-height: 40rem;
+    }
+}
