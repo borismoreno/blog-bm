@@ -26,7 +26,7 @@ export default function About({ posts }) {
     )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const respuesta = await fetch(`${process.env.API_URL}/api/posts?populate=imagen`);
     const { data: posts } = await respuesta.json();
     posts?.sort((a, b) => parseInt(b.id) - parseInt(a.id));
